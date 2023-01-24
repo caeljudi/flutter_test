@@ -55,38 +55,4 @@ extension Recipesort on List<Recipe> {
     add(recipe);
     sortRecipes();
   }
-
-  // for (var i = 0; i < this.length; i++) {
-  //   for (var j = 1; j < this.length - i; j++) {
-  //     if (this[j - 1].note! < this[j].note!) {
-  //       var temp = this[j - 1];
-  //       this[j - 1] = this[j];
-  //       this[j] = temp;
-  //     } else if (this[j - 1].note! != null &&
-  //         this[j - 1].note! == this[j].note!) {
-  //       if (this[j - 1].duree! < this[j].duree!) {
-  //         var temp = this[j - 1];
-  //         this[j - 1] = this[j];
-  //         this[j] = temp;
-  //       } else if (this[j - 1].duree != null &&
-  //           this[j - 1].duree! == this[j].duree!) {
-  //         if (this[j - 1] != null &&
-  //             this[j - 1]
-  //                     .name!
-  //                     .toLowerCase()
-  //                     .compareTo(this[j].name!.toLowerCase()) >
-  //                 0) {
-  //           var temp = this[j - 1];
-  //           this[j - 1] = this[j];
-  //           this[j] = temp;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 }
-
-  // insert({recipe: Recipe}) {
-  //   add(recipe);
-  //   sortRecipes();
-  // }
