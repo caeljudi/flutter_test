@@ -35,7 +35,7 @@ extension Recipesort on List<Recipe> {
             if (this[j].name.compareTo(this[maxIndex].name) < 0) {
               maxIndex = j;
             }
-          } else if (this[j].duree > this[maxIndex].duree) {
+          } else if (this[j].duree < this[maxIndex].duree) {
             maxIndex = j;
           }
         } else if (this[j].note > this[maxIndex].note) {
