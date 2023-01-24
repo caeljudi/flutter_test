@@ -60,6 +60,11 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/recipes.json
+    - assets/coco.jpg
+    - assets/gaspacho.jpg
+    - assets/strawberries.jpg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
@@ -70,6 +75,24 @@ flutter:
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
+
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/SFPro/OpenType/SF-Pro-Display-Bold.otf
+          weight: 700
+
+        - asset: assets/fonts/SFPro/OpenType/SF-Pro-Text-Bold.otf
+          weight: 700
+
+        - asset: assets/fonts/SFPro/OpenType/SF-Pro-Text-Regular.otf
+          weight: 400
+
+        - asset: assets/fonts/SFPro/OpenType/SF-Pro-Text-Semibold.otf
+          weight: 600
+
+        - asset: assets/fonts/SFPro/OpenType/SF-Pro-Display-Regular.otf
+          weight: 400
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
